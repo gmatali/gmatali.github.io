@@ -1,0 +1,38 @@
+:root {
+  --bg-color: #cccccc;
+  --textcolor:#2b2b2b;
+  --accent-color: #000000;
+  --border-color: #888888;
+}
+body {
+  font-family: -apple-system, BlinkmanSystemFont, "Segoe UI"m Robotom Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+h1 {margin-bottom: 0.2rem; }
+h2 { margin-top: 1.5rem; margin-bottom: 0.2rem; color: var(--accent-color);}
+a:hover { text-decoration: underline;}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: var(border-color);
+  margin-bottom: 1rem;
+
+}
+.entry { margin-bottom: 1.2 rem; }
+.date { float: right;color: #4d4d4d; font-size: 0.9rem; }
+
+ul { padding-left: 1.2rem; margin-top: 0.3rem; }
+li {margin-bottom: 0.2rem; }
+
+@media (max-width: 600px) {
+  .date {float: none; display:block; margin-bottom: 0.3rem;}
+}
